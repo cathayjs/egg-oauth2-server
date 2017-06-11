@@ -1,7 +1,7 @@
 'use strict';
 
 const path = require('path');
-const oauth2server = require('lib/index');
+const oauth2server = require('./lib/index');
 
 module.exports = app => {
   app.coreLogger.info('[egg-oauth2-server] egg-oauth2-server begin start');
